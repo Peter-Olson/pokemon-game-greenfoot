@@ -1,0 +1,8 @@
+@@@
+Pikachu
+25
+./images/pikachu_sm_d2.png
+ELECTRIC
+1.4
+13.0
+It stores electricity in the electric sacs on its cheeks.When it releases pent-up energy in a burst, the electric power is equal to a lightning bolt.

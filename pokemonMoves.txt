@@ -1,0 +1,165 @@
+ABSORB@GRASS@SPECIAL@20@100@25@User recovers half the HP inflicted on opponent@13:RHBOD:0.5
+ACID@POISON@SPECIAL@40@100@30@May lower opponent's Special Defense@0:AT:0.0@1:PC:0.33@42:LSD:0.66
+ACID ARMOR@POISON@STATUS@NA@NA@20@Sharply raises user's Defense@37:RD:2.0
+AGILITY@PSYCHIC@STATUS@NA@NA@30@Sharply raises user's Speed@47:RS:2.0
+AMNESIA@PSYCHIC@STATUS@NA@NA@20@Sharply raises user's Special Defense@0:AT:1.0@41:RSD:2.0
+AURORA BEAM@ICE@SPECIAL@65@100@20@May lower opponent's Attack@0:AT:0.0@1:PC:0.33@36:LA:0.66
+BARRAGE@NORMAL@PHYSICAL@15@85@20@Hits 2-5 times in one turn@10:HXTIOT:2.5
+BARRIER@PSYCHIC@STATUS@NA@NA@20@Sharply raises user's Defense@37:RD:2.0
+BIDE@NORMAL@PHYSICAL@NA@NA@10@User takes damage for two turns then strikes back double@65:CFAS:2.0@32:MP:2.0
+BIND@NORMAL@PHYSICAL@15@85@20@Traps opponent, damaging them for 4-5 turns@0:AT:0.0@8:DXT:4.5@11:DXD:0.125@28:CT:1.0
+BITE@DARK@PHYSICAL@60@100@25@May cause flinching@0:AT:0.0@1:PC:0.33@19:CF:1.0
+BLIZZARD@ICE@SPECIAL@110@70@5@May freeze opponent@0:AT:0.0@1:PC:0.1@21:CF:1.0
+BODY SLAM@NORMAL@PHYSICAL@85@100@15@May paralyze opponent@0:AT:0.0@1:PC:0.3@22:CP:1.0
+BONE CLUB@GROUND@PHYSICAL@65@85@20@May cause flinching@0:AT:0.0@1:PC:0.1@19:CF:1.0
+BONEMARANG@GROUND@PHYSICAL@50@90@10@Hits twice in one turn@10:HXTIOT:2.0
+BUBBLE@WATER@SPECIAL@40@100@30@May lower opponent's Speed@0:AT:0.0@1:PC:0.1@48:LS:1.0
+BUBBLE BEAM@WATER@SPECIAL@65@100@20@May lower opponent's Speed@0:AT:0.0@1:PC:0.1@48:LS:1.0
+CLAMP@WATER@PHYSICAL@35@85@15@Traps opponent, damaging them for 4-5 turns@0:AT:0.0@28:CT:1.0@8:DXT:4.5@11:DXD:0.125
+COMET PUNCH@NORMAL@PHYSICAL@18@85@15@Hits 2-5 times in one turn@10:HXTIOT:2.5
+CONFUSE RAY@GHOST@STATUS@NA@100@10@Confuses opponent@0:AT:0.0@26:CC:1.0
+CONFUSION@PSYCHIC@SPECIAL@50@100@25@May confuse opponent@0:AT:0.0@1:PC:0.1@26:CC:1.0
+CONSTRICT@NORMAL@PHYSICAL@10@100@35@May lower opponent's Speed by one stage@0:AT:0.0@1:PC:0.1@48:LS:0.66
+CONVERSION@NORMAL@STATUS@NA@NA@30@Changes user's type to that of its first move@57:CTTTOFM:1.0
+COUNTER@FIGHTING@PHYSICAL@NA@100@20@When hit by a Physical Attack, user strikes back with 2x power@3:IHBPA:1.0@32:MP:2.0
+CRABHAMMER@WATER@PHYSICAL@100@90@10@High critical hit ratio@49:RCHR:0.125
+CUT@NORMAL@PHYSICAL@50@95@30@Cuts opponent with a slicing blow
+DEFENSE CURL@NORMAL@STATUS@NA@NA@40@Raises user's Defense@37:RD:1.5
+DIG@GROUND@PHYSICAL@80@100@10@Digs underground on first turn, attacks on second. Can also escape from caves@29:POAS:1.0@30:POL:underground
+DISABLE@NORMAL@STATUS@NA@100@20@Opponent can't use its last attack for a few turns@0:AT:0.0@58:OCULA:1.8@64:FXT:1.8
+DIZZY PUNCH@NORMAL@PHYSICAL@70@100@10@May confuse opponent@0:AT:0.0@1:PC:0.2@26:CC:1.0
+DOUBLE KICK@FIGHTING@PHYSICAL@30@100@30@Hits twice in one turn@10:HXTIOT:2.0
+DOUBLE SLAP@NORMAL@PHYSICAL@15@85@10@Hits 2-5 times in one turn@10:HXTIOT:2.5
+DOUBLE TEAM@NORMAL@STATUS@NA@NA@15@Raises user's Evasiveness@43:RE:1.5
+DOUBLE-EDGE@NORMAL@PHYSICAL@120@100@15@User receives recoil damage@12:CRD:0.25
+DRAGON RAGE@DRAGON@SPECIAL@NA@100@10@Always inflicts 40 HP@11:DXD:40.0
+DREAM EATER@PSYCHIC@SPECIAL@100@100@15@User recovers half the HP inflicted on a sleeping opponent@6:ROTBS:1.0@13:RHBOD:0.5
+DRILL PECK@FLYING@PHYSICAL@80@100@20@Attacks opponent with a flurry of blows
+EARTHQUAKE@GROUND@PHYSICAL@100@100@10@Power is doubled if opponent is underground from using Dig@7:ROTBU:1.0@32:MP:2.0
+EGG BOMB@NORMAL@PHYSICAL@100@75@10@Attacks opponent using eggs
+EMBER@FIRE@SPECIAL@40@100@25@May burn opponent@0:AT:0.0@1:PC:0.1@20:CB:1.0
+EXPLOSION@NORMAL@PHYSICAL@250@100@5@User faints@27:CF:1.0
+FIRE BLAST@FIRE@SPECIAL@110@85@5@May burn opponent@0:AT:0.0@1:PC:0.1@20:CB:1.0
+FIRE PUNCH@FIRE@PHYSICAL@75@100@15@May burn opponent@0:AT:0.0@1:PC:0.1@20:CB:1.0
+FIRE SPIN@FIRE@SPECIAL@35@85@15@Traps opponent, damaging them for 4-5 turns@0:AT:0.0@28:CT:1.0@17:HPMH:0.125@9:HXT:4.5
+FISSURE@GROUND@PHYSICAL@NA@30@5@One-Hit-KO, if it hits@0:AT:0.0@27:CF:1.0
+FLAMETHROWER@FIRE@SPECIAL@90@100@15@May burn opponent@0:AT:0.0@1:PC:0.1@20:CB:1.0
+FLASH@NORMAL@STATUS@NA@100@20@Lower opponent's Accuracy@0:AT:0.0@46:LA:0.66
+FLY@FLYING@PHYSICAL@90@95@15@Flies up on first turn, attacks on second turn@29:POAS:1.0@30:POL:Sky
+FOCUS ENERGY@NORMAL@STATUS@NA@NA@30@Increases critical hit ratio@49:RCHR:1.5
+FURY ATTACK@NORMAL@PHYSICAL@15@85@20@Hits 2-5 times in one turn@10:HXTIOT:2.5
+FURY SWIPES@NORMAL@PHYSICAL@18@80@15@Hits 2-5 times in one turn@10:HXTIOT:2.5
+GLARE@NORMAL@STATUS@NA@100@30@Paralyzes opponent@0:AT:0.0@22:CP:1.0
+GROWL@NORMAL@STATUS@NA@100@40@Lowers opponent's Attack@0:AT:0.0@36:LA:0.66
+GROWTH@NORMAL@STATUS@NA@NA@20@Raises user's Attack and Special Attack@35:RA:1.5@39:RSA:1.5
+GUILLOTINE@NORMAL@PHYSICAL@NA@30@5@One-Hit-KO, if it hits@0:AT:0.0@27:CF:1.0
+GUST@FLYING@SPECIAL@40@100@35@Hits Pokemon using Fly/Bounce with double power@68:ROTBF:1.0@32:MP:2.0
+HARDEN@NORMAL@STATUS@NA@NA@30@Raises user's Defense@37:RD:1.5
+HAZE@ICE@STATUS@NA@NA@30@Resets all stat changes@54:RSC:1.0
+HEADBUTT@NORMAL@PHYSICAL@70@100@15@May cause flinching@0:AT:0.0@1:PC:0.3@19:CF:1.0
+HIGH JUMP KICK@FIGHTING@PHYSICAL@130@90@10@If it misses, the user loses half their HP@59:IM:1.0@16:DU:1.0@17:HPMH:0.5
+HORN ATTACK@NORMAL@PHYSICAL@65@100@25@Attacks opponent using horn
+HORN DRILL@NORMAL@PHYSICAL@NA@30@5@One-Hit-KO, if it hits@0:AT:0.0@27:CF:1.0
+HYDRO PUMP@WATER@SPECIAL@110@80@5@Powerful water attack
+HYPER BEAM@NORMAL@SPECIAL@150@90@5@User must recharge next turn@69:LNXT:1.0
+HYPER FANG@NORMAL@PHYSICAL@80@90@15@May cause flinching@0:AT:0.0@1:PC:0.1@19:CF:1.0
+HYPNOSIS@PSYCHIC@STATUS@NA@60@20@Puts opponent to sleep@0:AT:0.0@24:CS:1.0
+ICE BEAM@ICE@SPECIAL@90@100@10@May freeze opponent@0:AT:0.0@21:CF:1.0
+ICE PUNCH@ICE@PHYSICAL@75@100@15@May freeze opponent@0:AT:0.0@21:CF:1.0
+JUMP KICK@FIGHTING@PHYSICAL@100@95@10@If it misses, the user loses half their HP@59:IM:1.0@16:DU:1.0@17:HPMH:0.5
+KARATE CHOP@FIGHTING@PHYSICAL@50@100@25@High critical hit ratio@51:TRCHR:3.0
+KINESIS@PSYCHIC@STATUS@NA@80@15@Lowers opponent's Accuracy@0:AT:0.0@46:LA:0.66
+LEECH LIFE@BUG@PHYSICAL@80@100@10@User recovers half the HP inflicted on opponent@13:RHBOD:0.5
+LEECH SEED@GRASS@STATUS@NA@90@10@Drains HP from opponent each turn@0:AT:0.0@53:DH:0.125
+LEER@NORMAL@STATUS@NA@100@30@Lower opponent's Defense@0:AT:0.0@38:LD:0.66
+LICK@GHOST@PHYSICAL@30@100@30@May paralyze opponent@0:AT:0.0@1:PC:0.3@22:CP:1.0
+LIGHT SCREEN@PSYCHIC@STATUS@NA@NA@30@Halves damage from Special Attacks for 5 turns@60:ISA:1.0@14:RD:0.5@64:FXT:5.0
+LOVELY KISS@NORMAL@STATUS@NA@75@10@Puts opponent to sleep@0:AT:0.0@24:CS:1.0
+LOW KICK@FIGHTING@PHYSICAL@NA@100@20@The heavier the opponent, the stronger the attack@0:AT:0.0@52:RPDOW:1.0
+MEDITATE@PSYCHIC@STATUS@NA@NA@35@Raises user's Attack@35:RA:1.5
+MEGA DRAIN@GRASS@SPECIAL@40@100@15@User recovers half the HP inflicted on opponent@53:DH:0.5
+MEGA KICK@NORMAL@PHYSICAL@120@75@5@Strong kick attack
+MEGA PUNCH@NORMAL@PHYSICAL@80@85@20@Strong punch attack
+METRONOME@NORMAL@STATUS@NA@NA@10@User performs almost any move in the game at random@66:PRM:1.0
+MIMIC@NORMAL@STATUS@NA@NA@10@Copies the opponent's last move@67:COLM:1.0
+MINIMIZE@NORMAL@STATUS@NA@NA@10@Sharply raises user's Evasiveness@43:RE:2.0
+MIRROR MOVE@FLYING@STATUS@NA@NA@20@User performs the opponent's last move@67:COLM:1.0
+MIST@ICE@STATUS@NA@NA@30@User's stats cannot be changed for a period of time@55:SCBC:5.0
+NIGHT SHADE@GHOST@SPECIAL@NA@100@15@Inflicts damage equal to user's level@18:IDETL:1.0
+PAY DAY@NORMAL@PHYSICAL@40@100@20@A small amount of money is gained after the battle resolves@62:GMAB:2.0
+PECK@FLYING@PHYSICAL@35@100@35@Pointy jab-like attack
+PETAL DANCE@GRASS@SPECIAL@120@100@10@User attacks for 2-3 turns but then becomes confused@9:HXT:2.3@70:SCA:1.0@26:CC:1.0
+PIN MISSILE@BUG@PHYSICAL@25@95@20@Hits 2-5 times in one turn@10:HXTIOT:2.5
+POISON GAS@POISON@STATUS@NA@90@40@Poisons opponent@0:AT:0.0@23:CP:1.0
+POISON POWDER@POISON@STATUS@NA@75@35@Poisons opponent@0:AT:0.0@23:CP:1.0
+POISON STING@POISON@PHYSICAL@15@100@35@Poisons opponent@0:AT:0.0@1:PC:0.3@23:CP:1.0
+POUND@NORMAL@PHYSICAL@40@100@35@Physical tackle attack
+PSYBEAM@PSYCHIC@SPECIAL@65@100@20@May confuse opponent@0:AT:0.0@1:PC:0.1@26:CC:1.0
+PSYCHIC@PSYCHIC@SPECIAL@90@100@10@May lower opponent's Special Defense@0:AT:0.0@1:PC:0.1@42:LSD:0.66
+PSYWAVE@PSYCHIC@SPECIAL@NA@100@15@Inflicts damage 50-150% of user's level@15:IDETPOL:1.0
+QUICK ATTACK@NORMAL@PHYSICAL@40@100@30@User attacks first
+RAGE@NORMAL@PHYSICAL@20@100@20@Raises user's Attack when hit@2:IHBA:1.0@35:RA:1.5
+RAZOR LEAF@GRASS@PHYSICAL@55@95@25@High critical hit ratio@51:TRCHR:3.0
+RAZOR WIND@NORMAL@SPECIAL@80@100@10@Charges on first turn, attacks on second. High critical hit ratio@65:CFAS:1.0@51:TRCHR:3.0
+RECOVER@NORMAL@STATUS@NA@NA@10@User recovers half its max HP@71:RPMH:0.5
+REFLECT@PSYCHIC@STATUS@NA@NA@20@Halves damage from Physical attacks for 5 turns@72:IPA:1.0@64:FXT:5.0@14:RD:0.5
+REST@PSYCHIC@STATUS@NA@NA@10@User sleeps for 2 turns, but user is fully healed@31:SFXTTFH:1.0
+ROAR@NORMAL@STATUS@NA@NA@20@In battles, the opponent switches. In the wild, the Pokemon runs
+ROCK SLIDE@ROCK@PHYSICAL@75@90@10@May cause flinching@0:AT:0.0@1:PC:0.3@19:CF:1.0
+ROCK THROW@ROCK@PHYSICAL@50@90@15@Throws a rock at the opponent
+ROLLING KICK@FIGHTING@PHYSICAL@60@85@15@May cause flinching@0:AT:0.0@1:PC:0.3@19:CF:1.0
+SAND ATTACK@GROUND@STATUS@NA@100@15@Lower's opponent's Accuracy@0:AT:0.0@46:LA:0.66
+SCRATCH@NORMAL@PHYSICAL@40@100@35@Attack using claws
+SCREECH@NORMAL@STATUS@NA@85@40@Sharply lowers opponent's Defense@0:AT:0.0@38:LD:0.5
+SEISMIC TOSS@FIGHTING@PHYSICAL@NA@100@20@Inflicts damage equal to user's level@18:IDETL:1.0
+SELF-DESTRUCT@NORMAL@PHYSICAL@200@100@5@User faints@27:CF:1.0@70:SCA:1.0
+SHARPEN@NORMAL@STATUS@NA@NA@30@Raises user's Attack@35:RA:1.5
+SING@NORMAL@STATUS@NA@55@15@Puts opponent to sleep@0:AT:0.0@24:CS:1.0
+SKULL BASH@NORMAL@PHYSICAL@130@100@10@Raises Defense on first turn, attacks on second@56:RDTA:1.0
+SKY ATTACK@FLYING@PHYSICAL@140@90@5@Charges on first turn, attacks on second. May cause flinching. High critical hit ratio@0:AT:0.0@1:PC:0.3@19:CF:1.0@65:CFAS:1.0@29:POAS:1.0@30:POL:Sky@51:TRCHR:3.0
+SLAM@NORMAL@PHYSICAL@80@75@20@Physical tackle-based attack
+SLASH@NORMAL@PHYSICAL@70@100@20@High critical hit ratio@51:TRCHR:3.0
+SLEEP POWDER@GRASS@STATUS@NA@75@15@Puts opponent to sleep@0:AT:0.0@24:CS:1.0
+SLUDGE@POISON@SPECIAL@65@100@20@May poison opponent@0:AT:0.0@1:PC:0.3@23:CP:0.3
+SMOG@POISON@SPECIAL@30@70@20@May poison opponent@0:AT:0.0@1:PC:0.4@23:CP:1.0
+SMOKESCREEN@NORMAL@STATUS@NA@100@20@Lowers opponent's Accuracy@0:AT:0.0@46:LA:0.66
+SOFT-BOILED@NORMAL@STATUS@NA@NA@10@User recovers half its max HP@71:RPMH:0.5
+SOLAR BEAM@GRASS@SPECIAL@120@100@10@Charges on first turn, attacks on second@65:CFAS:1.0
+SONIC BOOM@NORMAL@SPECIAL@NA@90@20@Always inflicts 20 HP@11:DXD:20.0
+SPIKE CANNON@NORMAL@PHYSICAL@20@100@15@Hits 2-5 times in one turn@10:HXTIOT:2.5
+SPLASH@NORMAL@STATUS@NA@NA@40@Doesn't do ANYTHING
+SPORE@GRASS@STATUS@NA@100@15@Puts opponent to sleep@0:AT:0.0@24:CS:1.0
+STOMP@NORMAL@STATUS@65@100@20@May cause flinching@0:AT:0.0@1:PC:0.3@19:CF:1.0
+STRENGTH@NORMAL@PHYSICAL@80@100@15@Uses strength to throw opponent
+STRING SHOT@BUG@STATUS@NA@95@40@Sharply lowers opponent's Speed@0:AT:0.0@48:LS:0.5
+STRUGGLE@NORMAL@PHYSICAL@50@NA@NA@Only usable when all PP are gone. Hurts the user@16:DU:1.0
+STUN SPORE@GRASS@STATUS@NA@75@30@Paralyzes opponent@0:AT:0.0@22:CP:1.0
+SUBMISSION@FIGHTING@PHYSICAL@80@80@20@User receives recoil damage@12:CRD:0.25
+SUBSTITUTE@NORMAL@STATUS@NA@NA@10@Uses HP to create a decoy that takes hits@63:CD:0.25
+SUPER FANG@NORMAL@PHYSICAL@NA@90@10@Always takes off half of the opponent's HP@0:AT:0.0@17:HPMH:0.5
+SUPERSONIC@NORMAL@STATUS@NA@55@20@Confuses opponent@0:AT:0.0@26:CC:1.0
+SURF@WATER@SPECIAL@90@100@15@Hits all adjacent Pokemon
+SWIFT@NORMAL@SPECIAL@60@NA@20@Ignores Accuracy and Evasiveness
+SWORDS DANCE@NORMAL@STATUS@NA@NA@20@Sharply raises user's Attack@35:RA:2.0
+TACKLE@NORMAL@PHYSICAL@40@100@35@Tackles opponent
+TAIL WHIP@NORMAL@STATUS@NA@100@30@Lowers opponent's Defense@0:AT:0.0@38:LD:0.66
+TAKE DOWN@NORMAL@PHYSICAL@90@85@20@User receives recoil damage@12:CRD:0.25
+TELEPORT@PSYCHIC@STATUS@NA@NA@20@Allows user to flee wild battles; also warps player to last PokeCenter
+THRASH@NORMAL@PHYSICAL@120@100@10@User attacks for 2-3 turns but then becomes confused@9:HXT:2.3@70:SCA:1.0@26:CC:1.0
+THUNDER@ELECTRIC@SPECIAL@110@70@10@May paralyze opponent@0:AT:0.0@1:PC:0.3@22:CP:1.0
+THUNDER PUNCH@ELECTRIC@PHYSICAL@75@100@15@May paralyze opponent@0:AT:0.0@1:PC:0.1@22:CP:1.0
+THUNDER SHOCK@ELECTRIC@SPECIAL@40@100@30@May paralyze opponent@0:AT:0.0@1:PC:0.1@22:CP:1.0
+THUNDER WAVE@ELECTRIC@STATUS@NA@90@20@Paralyzes opponent@0:AT:0.0@22:CP:1.0
+THUNDERBOLT@ELECTRIC@SPECIAL@90@100@15@May paralyze opponent@0:AT:0.0@1:PC:0.1@22:CP:1.0
+TOXIC@POISON@STATUS@NA@90@10@Badly poisons opponent@0:AT:0.0@23:CP:1.0
+TRANSFORM@NORMAL@STATUS@NA@NA@10@User takes on the form and attacks of the opponent@61:GFAA:1.0
+TRI ATTACK@NORMAL@SPECIAL@80@100@10@May paralyze, burn, or freeze opponent@0:AT:0.0@1:PC:0.2@22:CP:1.0@20:CB:1.0@21:CF:1.0
+TWINEEDLE@BUG@PHYSICAL@25@100@20@Hits twice in one turn. May poison opponent@0:AT:0.0@9:HXT:2.0@1:PC:0.2@23:CP:1.0
+VINE WHIP@GRASS@PHYSICAL@45@100@25@Vine attack
+VISE GRIP@NORMAL@PHYSICAL@55@100@30@Physical grappling attack
+WATER GUN@WATER@SPECIAL@40@100@25@Water-based attack
+WATERFALL@WATER@PHYSICAL@80@100@15@May cause flinching@0:AT:0.0@1:PC:0.2@19:CF:1.0
+WHIRLWIND@NORMAL@STATUS@NA@NA@20@In battles, the opponent switches. In the wild, the Pokemon runs
+WING ATTACK@FLYING@PHYSICAL@60@100@35@Attack using the user's wings
+WITHDRAW@WATER@STATUS@NA@NA@40@Raises user's Defense@37:RD:1.5
+WRAP@NORMAL@PHYSICAL@15@90@20@Traps opponent, damaging them for 4-5 turns@0:AT:0.0@70:SCA:1.0@28:CT:1.0@64:FXT:4.5

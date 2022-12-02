@@ -1,0 +1,101 @@
+Awakening@item_awakening.png@A spray-time medicine. It awakens a Pokemon from the clutches of sleep.@T@T@T@F@healSleep@F@T@na@na@F@F@F@F@0@F@F@F
+Berry Juice@item_berry_juice.png@A 100% pure juice made of Berries. It restores the HP of one Pokemon by just 20 points.@HP:20@T@T@T@F@na@T@F@na@na@F@F@F@F@0@F@F@F
+Bright Powder@item_bright_powder.png@Lower's the opponent's accuracy.@accuracy:-0.1@F@F@T@F@na@F@F@na@na@F@F@F@F@0@F@F@F
+Bug Gem@item_gem_bug.png@Increases the power of a Bug-type move only once.@movePower:0.3@T@F@F@F@na@T@F@reqBugType@na@F@F@T@T@0@F@F@F
+Burn Heal@item_burn_heal.png@A spray-type medicine. It heals a single Pokemon that is suffering from a burn.@T@T@T@F@healBurn@T@F@na@na@F@F@F@F@0@F@F@F
+Calcium@item_calcium.png@Increases Special Attack by 10.@specialAttack:10@T@T@F@F@na@T@F@na@na@F@F@F@T@0@F@F@F
+Carbos@item_carbos.png@Increases Speed by 10.@speed:10@T@T@F@F@na@T@F@na@na@F@F@F@T@0@F@F@F
+Cheri Berry@item_cheri_berry.png@If held by a Pokemon, it recovers from paralysis.@T@T@T@F@healParalysis@F@T@na@na@F@F@F@F@0@F@F@F
+Chesto Berry@item_chesto_berry.png@If held by a Pokemon, it recovers from sleep.@T@T@T@F@healSleep@F@T@na@na@F@F@F@F@0@F@F@F
+Courage Candy@item_courage_candy.png@Increases a Pokemon's Special Defense stat by 10@specialDefense:10@T@T@F@F@na@T@F@na@na@F@F@F@T@0@F@F@F
+Dire Hit@item_dire_hit.png@Raises critical-hit ratio of a Pokemon in battle.@criticalHitRatio:0.1@T@F@T@F@na@T@F@na@na@F@F@F@T@0@F@F@F
+Dragon Gem@item_gem_dragon.png@Increases the power of a Dragon-type move only once.@movePower:0.3@T@F@F@F@na@T@F@reqDragonType@na@F@F@T@T@0@F@F@F
+Electric Gem@item_gem_electric.png@Increases the power of a Electric-type move only once.@movePower:0.3@T@F@F@F@na@T@F@reqElectricType@na@F@F@T@T@0@F@F@F
+Elixir@item_elixir.png@It restores the PP of all the moves learned by the targeted Pokemon by 10 points each.@movePP:10@T@T@T@F@na@T@F@na@na@F@T@F@F@0@F@F@F
+Ether@item_ether.png@It restores the PP of a Pokemon's selected move by a maximum of 10 points.@movePP:10@T@T@T@F@na@T@F@na@na@F@F@F@F@0@F@F@F
+Eviolite@item_eviolite.png@A mysterious evolutionary lump. When held, it raises the Defense and Sp. Def of a Pokemon that can still evolve.@defense:10,specialDefense:10@T@T@F@F@na@T@F@na@na@F@F@F@T@0@F@F@F
+Fighting Gem@item_gem_fighting.png@Increases the power of a Fighting-type move only once.@movePower:0.3@T@F@F@F@na@T@F@reqFightingType@na@F@F@T@T@0@F@F@F
+Fire Gem@item_gem_fire.png@Increases the power of a Fire-type move only once.@movePower:0.3@T@F@F@F@na@T@F@reqFireType@na@F@F@T@T@0@F@F@F
+Flying Gem@item_gem_flying.png@Increases the power of a Flying-type move only once.@movePower:0.3@T@F@F@F@na@T@F@reqFlyingType@na@F@F@T@T@0@F@F@F
+Fresh Water@item_fresh_water.png@Restores 30 HP@HP:30@T@T@T@F@na@T@F@na@na@F@F@F@F@0@F@F@F
+Full Heal@item_full_heal.png@A spray-type medicine. It heals all the status problems of a single Pokemon.@T@T@T@T@na@T@F@na@na@F@F@F@F@0@F@F@F
+Full Restore@item_full_restore.png@A medicine that fully restores the HP and heals and status problems of a single Pokemon.@HP:0@T@T@T@T@na@T@F@na@na@F@F@F@T@0@F@F@F
+Ghost Gem@item_gem_ghost.png@Increases the power of a Ghost-type move only once.@movePower:0.3@T@F@F@F@na@T@F@reqGhostType@na@F@F@T@T@0@F@F@F
+Grass Gem@item_gem_grass.png@Increases the power of a Grass-type move only once.@movePower:0.3@T@F@F@F@na@T@F@reqGrassType@na@F@F@T@T@0@F@F@F
+Ground Gem@item_gem_ground.png@Increases the power of a Ground-type move only once.@movePower:0.3@T@F@F@F@na@T@F@reqGroundType@na@F@F@T@T@0@F@F@F
+Health Candy@item_health_candy.png@Increases a Pokemon's HP stat by 10@HP:10@T@T@F@F@na@T@F@na@na@F@F@F@T@0@F@F@F
+Hopo Berry@item_hopo_berry.png@A Berry that can be fed to a Pokemon to restore its PP.@movePP:0@T@T@T@F@na@T@F@na@na@F@F@T@T@0@F@F@F
+HP Up@item_hp_up.png@Increases HP by 10@HP:10@T@T@F@F@na@T@F@na@na@F@F@F@T@0@F@F@F
+Hyper Potion@item_hyper_potion.png@Restores 120 HP.@HP:120@T@T@T@F@na@T@F@na@na@F@F@F@F@0@F@F@F
+Ice Gem@item_gem_ice.png@Increases the power of a Ice-type move only once.@movePower:0.3@T@F@F@F@na@T@F@reqIceType@na@F@F@T@T@0@F@F@F
+Ice Heal@item_ice_heal.png@A spray-type medicine. It defrosts a Pokemon that has been frozen solid.@T@T@T@F@healFreeze@T@F@na@na@F@F@F@F@0@F@F@F
+Iron@item_iron.png@Increases Defense by 10@defense:10@T@T@F@F@na@T@F@na@na@F@F@F@T@0@F@F@F
+Lansat Berry@item_lansat_berry.png@Increases critical-hit ratio when HP is low.@criticalHitRatio:0.2@T@T@T@F@na@F@F@na@na@F@F@F@T@1@F@F@F
+Lava Cookie@item_lava_cookie.png@Heals all major status conditions.@T@T@T@T@na@T@F@na@na@F@F@F@F@0@F@F@F
+Leftovers@item_leftovers.png@An item to be held by a Pokemon. The holder's HP is gradually restored during battle.@HP:0.0625@T@F@T@F@na@F@T@na@na@F@F@F@F@0@F@F@F
+Lemonade@item_lemonade.png@Restores 70 HP.@HP:70@T@T@T@F@na@T@F@na@na@F@F@F@F@0@F@F@F
+Leppa Berry@item_leppa_berry.png@If held by a Pokemon, it restores a move's PP by 10@movePP:10@T@T@T@F@na@T@F@na@na@F@F@T@F@0@F@F@F
+Liechi Berry@item_liechi_berry.png@Raises attack when HP is low.@attack:20@T@T@T@F@na@F@F@na@na@F@F@F@F@1@F@F@F
+Lum Berry@item_lum_berry.png@If held by a Pokemon, it recovers from any status problem.@T@T@T@T@na@F@T@na@na@F@F@F@F@0@F@F@F
+Max Elixir@item_elixir.png@It fully restores the PP of all the moves learned by the targeted Pokemon.@movePP:0@T@T@T@F@na@T@F@na@na@F@T@F@T@0@F@F@F
+Max Ether@item_max_ether.png@It fully restores the PP of a single selected move that has been learned by the target Pokemon.@movePP:0@T@T@T@F@na@T@F@na@na@F@F@T@T@0@F@F@F
+Max Potion@item_max_potion.png@Fully restores HP.@HP:0@T@T@T@F@na@T@F@na@na@F@F@F@T@0@F@F@F
+Mighty Candy@item_mighty_candy.png@Increases a Pokemon's Attack stat by 10.@attack:10@T@T@F@F@na@T@F@na@na@F@F@F@T@0@F@F@F
+Miracle Seed@item_miracle_seed.png@Increases the power of Grass-type moves.@movePower:0.2@T@F@T@F@na@F@F@reqGrassType@na@F@T@F@T@0@F@F@F
+Moomoo Milk@item_moomoo_milk.png@Milk with a very high nutrition content. It restores the HP of one Pokemon by 100 points.@HP:100@T@T@T@F@na@T@F@na@na@F@F@F@F@0@F@F@F
+Mystic Water@item_mystic_water.png@Increases the power of Water-type moves.@movePower:0.2@T@F@T@F@na@F@F@na@na@F@T@F@T@0@F@F@F
+Never-Melt Ice@item_nevermelt_ice.png@Increases the power of Ice-type moves.@movePower:0.2@T@F@T@F@na@F@F@na@na@F@T@F@T@0@F@F@F
+Normal Gem@item_gem_normal.png@Increases the power of a Normal-type move only once.@movePower:0.3@T@F@F@F@na@T@F@reqNormalType@na@F@F@T@T@0@F@F@F
+Old Gateau@item_old_gateau.png@Heals all major status conditions.@T@T@T@T@na@T@F@na@na@F@F@F@F@0@F@F@F
+Oran Berry@item_oran_berry.png@If held by a Pokemon, it heals the user by just 10 HP.@HP:10@T@T@T@F@na@T@F@na@na@F@F@F@F@0@F@F@F
+Paralyze Heal@item_paralyze_heal.png@A spray-type medicine. It eliminates paralysis from a single Pokemon.@T@T@T@F@healParalysis@T@F@na@na@F@F@F@F@0@F@F@F
+Pecha Berry@item_pecha_berry.png@If held by a Pokemon, it recovers from poison.@T@T@T@F@healPoison@F@F@na@na@F@F@F@F@0@F@F@F
+Persim Berry@item_persim_berry.png@If held by a Pokemon, it recovers from confusion.@T@T@T@F@healConfusion@F@F@na@na@F@F@F@F@0@F@F@F
+Petaya Berry@item_petaya_berry.png@Raises Special Attack when HP is low.@specialAttack:20@T@T@T@F@na@F@F@na@na@F@F@F@T@1@F@F@F
+Poison Barb@item_poison_barb.png@Increases the power of Poison-type moves.@movePower:0.2@T@F@T@F@na@F@F@reqPoisonType@na@F@T@F@T@0@F@F@F
+Poison Gem@item_gem_poison.png@Increases the power of a Poison-type move only once.@movePower:0.3@T@F@F@F@na@T@F@reqPoisonType@na@F@F@T@T@0@F@F@F
+Potion@item_potion.png@Restores 20 HP.@HP:20@T@T@T@F@na@T@F@na@na@F@F@F@F@0@F@F@F
+Power Anklet@item_power_anklet.png@A Pokemon held item that promotes Speed gain on leveling, but reduces the Speed stat.@speed:0.01,speed:-0.05@T@F@T@F@na@F@F@na@na@F@F@F@F@0@F@F@T
+Power Band@item_power_band.png@A Pokemon held item that promotes Sp. Def gain on leveling, but reduces the Speed stat.@specialDefense:0.01,speed:-0.05@T@F@T@F@na@F@F@na@na@F@F@F@F@0@F@F@T
+Power Belt@item_power_band.png@A Pokemon held item that promotes Defense gain on leveling, but reduces the Speed stat.@defense:0.01,speed:-0.05@T@F@T@F@na@F@F@na@na@F@F@F@F@0@F@F@T
+Power Bracer@item_power_band.png@A Pokemon held item that promotes Attack gain on leveling, but reduces the Speed stat.@attack:0.01,speed:-0.05@T@F@T@F@na@F@F@na@na@F@F@F@F@0@F@F@T
+Power Lens@item_power_lens.png@A Pokemon held item that promotes Sp. Atk gain on leveling, but reduces the Speed stat.@specialAttack:0.01,speed:-0.05@T@F@T@F@na@F@F@na@na@F@F@F@F@0@F@F@T
+Power Weight@item_power_anklet.png@A Pokemon held item that promotes HP gain on leveling, but reduces the Speed stat.@HP:0.01,speed:-0.05@T@F@T@F@na@F@F@na@na@F@F@F@F@0@F@F@T
+PP Max@item_pp_max.png@It maximally raises the top PP of a selected move that has been learned by the target Pokemon.@movePP:0@T@T@F@F@na@T@F@na@na@F@F@T@T@0@F@F@F
+PP Up@item_pp_up.png@It slightly raises the maximum PP of a selected move that has been learned by the target Pokemon.@movePP:5@T@T@F@F@na@T@F@na@na@F@F@T@T@0@F@F@F
+Protein@item_protein.png@Increase Attack by 10.@attack:10@T@T@F@F@na@T@F@na@na@F@F@F@T@0@F@F@F
+Psychic Gem@item_gem_psychic.png@Increases the power of a Psychic-type move only once.@movePower:0.3@T@F@F@F@na@T@F@reqPsychicType@na@F@F@T@T@0@F@F@F
+Quick Candy@item_quick_candy.png@Increases a Pokemon's Speed stat by 10.@speed:10@T@T@F@F@na@T@F@na@na@F@F@F@T@0@F@F@F
+Rage Candy Bar@item_rage_candy_bar.png@Heals all major status conditions.@T@T@T@T@na@T@F@na@na@F@F@F@F@0@F@F@F
+Rare Candy@item_rare_candy.png@A candy that is packed with energy. It raises the level of a single Pokemon by one.@exp:0@T@T@F@F@na@T@F@na@na@F@F@F@T@0@F@F@F
+Rawst Berry@item_rawst_berry.png@If held by a Pokemon, it recovers from a burn.@T@T@T@F@healBurn@F@T@na@na@F@F@F@F@0@F@F@F
+Revival Herb@item_revival_herb.png@Revives a Pokemon to max HP.@HP:0@T@T@T@F@na@T@F@na@na@F@F@F@T@0@F@F@F
+Rock Gem@item_gem_rock.png@Increases the power of a Rock-type move only once.@movePower:0.3@T@F@F@F@na@T@F@reqRockType@na@F@F@T@T@0@F@F@F
+Salac Berry@item_salac_berry.png@Raises speed when HP is low.@speed:20@T@T@T@F@na@F@F@na@na@F@F@F@T@1@F@F@F
+Scope Lens@item_scope_lens.png@Increases critical-hit ratio.@criticalHitRatio:0.2@T@F@T@F@na@F@F@na@na@F@F@F@T@0@F@F@F
+Sea Incense@item_sea_incense.png@Increases the power of Water-type moves.@movePower:0.2@T@F@F@F@na@F@F@reqWaterType@na@F@T@F@T@0@F@F@F
+Shalour Sable@item_shalour_sable.png@Heals all major status conditions.@T@T@T@T@na@T@F@na@na@F@F@F@F@0@F@F@F
+Sharp Beak@item_sharp_beak.png@Increases the power of Flying-type moves.@movePower:0.2@T@F@F@F@na@F@F@reqFlyingType@na@F@T@F@T@0@F@F@F
+Silk Scarf@item_silk_scarf.png@Increases the power of Normal-type moves.@movePower:0.2@T@F@F@F@na@F@F@reqNormalType@na@F@T@F@T@0@F@F@F
+Silver Powder@item_silver_powder.png@Increases the power of Bug-type moves.@movePower:0.2@T@F@F@F@na@F@F@reqBugType@na@F@T@F@T@0@F@F@F
+Sitrus Berry@item_sitrus_berry.png@If held by a Pokemon, it heals the user's HP a little.@HP:30@T@T@T@F@na@T@F@na@na@F@F@F@F@0@F@F@F
+Smart Candy@item_smart_candy.png@Increases the Pokemon's Special Attack stat by 10.@specialAttack:10@T@T@F@F@na@T@F@na@na@F@F@F@T@0@F@F@F
+Soda Pop@item_soda_pop.png@Restores 50 HP.@HP:50@T@T@T@F@na@T@F@na@na@F@F@F@F@0@F@F@F
+Soft Sand@item_soft_sand.png@Increases the power of Ground-type moves.@movePower:0.2@T@F@F@F@na@F@F@reqGroundType@na@F@T@F@T@0@F@F@F
+Spell Tag@item_spell_tag.png@Increases the power of Ghost-type moves.@movePower:0.2@T@F@F@F@na@F@F@reqGhostType@na@F@T@F@T@0@F@F@F
+Starf Berry@item_starf_berry.png@Sharply raises a random stat when HP is low.@attack:0.3@T@F@T@F@na@F@F@na@na@F@F@F@F@1@T@F@F
+Super Potion@item_super_potion.png@Restores 60 HP.@HP:60@T@T@T@F@na@T@F@na@na@F@F@F@F@0@F@F@F
+Tough Candy@item_tough_candy.png@Increases a Pokemon's Defense stat by 10.@defense:10@T@T@F@F@na@T@F@na@na@F@F@F@T@0@F@F@F
+Twisted Spoon@item_twisted_spoon.png@Increases the power of Psychic-type moves.@movePower:0.2@T@F@F@F@na@F@F@reqPsychicType@na@F@T@F@T@0@F@F@F
+Water Gem@item_gem_water.png@Increases the power of a Water-type move only once.@movePower:0.3@T@F@F@F@na@T@F@reqWaterType@na@F@F@T@T@0@F@F@F
+Wave Incense@item_wave_incense.png@Increases the power of Water-type moves.@movePower:0.2@T@F@F@F@na@F@F@reqWaterType@na@F@T@F@T@0@F@F@F
+White Herb@item_white_herb.png@An item to be held by a Pokemon. It restores any lowered stats in battle. It can be used only once.@T@T@T@F@na@T@F@na@na@F@F@F@T@0@F@T@F
+Wide Lens@item_wide_lens.png@Increases the accuracy of moves.@accuracy:0.1@T@F@T@F@na@F@F@na@na@F@F@F@T@0@F@F@F
+Wise Glasses@item_wise_glasses.png@Increases the power of Special-category moves.@movePower:0.1@T@F@T@F@na@F@F@na@reqSpecialCat@F@F@F@T@0@F@F@F
+X Accuracy@item_x_accuracy.png@Raises Accuracy of a Pokemon in battle.@accuracy:0@T@T@F@F@na@F@F@na@na@F@F@F@T@0@F@F@F
+X Attack@item_x_attack.png@Raises Attack of a Pokemon in battle.@attack:0@T@T@F@F@na@F@F@na@na@F@F@F@T@0@F@F@F
+X Defense@item_x_defense.png@Raises Defense of a Pokemon in battle.@defense:0@T@T@F@F@na@F@F@na@na@F@F@F@T@0@F@F@F
+X Sp Atk@item_x_special_attack.png@Raises Sp Atk of a Pokemon in battle.@specialAttack:0@T@T@F@F@na@F@F@na@na@F@F@F@T@0@F@F@F
+X Sp Def@item_x_special_defense.png@Raises Sp Def of a Pokemon in battle.@specialDefense:0@T@T@F@F@na@F@F@na@na@F@F@F@T@0@F@F@F
+X Speed@item_x_speed.png@Raises Speed of a Pokemon in battle.@speed:0@T@T@F@F@na@F@F@na@na@F@F@F@T@0@F@F@F
+Zinc@item_zinc.png@Increases Special Defense by 10.@specialDefense:10@T@T@F@F@na@T@F@na@na@F@F@F@T@0@F@F@F

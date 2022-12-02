@@ -1,0 +1,146 @@
+@@@
+    public void checkPokemonInit() throws InvalidPokemonPointsException, InvalidPokemonValuesException {
+        int tempPokePoints = HP + attack + defense + specialAttack + specialDefense + speed +
+                             evasion + accuracy + (level - 1)*PokeWorld.POINTS_GIVEN_ON_LEVEL_UP +
+                             moves.size()*PokeWorld.NEW_MOVE_COST;
+        
+        if( tempPokePoints > PokeWorld.STARTING_POINTS )
+            throw new InvalidPokemonPointsException("Expected Pokepoints of: " + PokeWorld.STARTING_POINTS +
+                                                    ", but found " + tempPokePoints + " spent.");
+        
+        if( HP < PokeWorld.MIN_ATTRIBUTE || attack < PokeWorld.MIN_ATTRIBUTE ||
+            defense < PokeWorld.MIN_ATTRIBUTE || specialAttack < PokeWorld.MIN_ATTRIBUTE ||
+            specialDefense < PokeWorld.MIN_ATTRIBUTE || speed < PokeWorld.MIN_ATTRIBUTE ||
+            evasion < PokeWorld.MIN_ATTRIBUTE || accuracy < PokeWorld.MIN_ATTRIBUTE )
+            throw new InvalidPokemonValuesException("One or more values of this Pokemon is less than the required" +
+                " minimum value for Pokemon attributes. The minimum value for all attributes is: " + PokeWorld.MIN_ATTRIBUTE +
+                ", but this Pokemon has the following values:/n/n" +
+                "HP: " + HP + "/nAttack: " + attack + "/nDefense: " + defense + "/nSpecial Attack: " + specialAttack +
+                "/nSpecial Defense: " + specialDefense + "/nSpeed: " + speed + "/nEvasion: " + evasion +
+                "/nAccuracy: " + accuracy);
+    }
+@@@
+    public int spendPoints( int points ) {
+        if( this.points >= points ) this.points -= points;
+        else                        return PokeWorld.ERROR;
+        
+        return points;
+    }
+@@@
+    public Status getStatus() {
+        return this.status;
+    }
+@@@
+    public void setStatus( Status status ) {
+        this.status = status;
+    }
+@@@
+    public void setCurrentHP( int currentHP ) {
+        if( currentHP > this.HP )
+            printError("Cannot set current HP greater than maximum HP");
+        else
+            this.currentHP = currentHP;
+        
+        if( this.currentHP <= 0 ) setStatus( Status.FAINTED );
+    }
+@@@
+    public void addHP( int HP ) {
+        this.currentHP += HP;
+        if( this.currentHP > this.HP ) this.currentHP = this.HP;
+        if( this.currentHP <= 0 )      setStatus( Status.FAINTED );
+    }
+@@@
+    protected boolean evaluateExp( int exp ) {
+        if( hasLeveled( exp, getCurrentLevel() ) ) {
+            int newLevel = pokedex.getLevelByExp( exp );
+            points += (newLevel - this.level)*PokeWorld.POINTS_GIVEN_ON_LEVEL_UP;
+            this.level = newLevel;
+            this.exp = exp;
+            this.addedExp += exp;
+            return true;
+        }
+        this.exp = exp;
+        return false;
+    }
+@@@
+    public boolean addExp( int exp ) {
+        return evaluateExp( this.exp + exp );
+    }
+@@@
+    protected boolean hasLeveled( int exp, int currentLevel ) {
+        if( pokedex.getExperiencePerLevel( currentLevel ) <= exp ) return true;
+        else                                                       return false;
+    }
+@@@
+    public void addMove( Move move ) throws InvalidPokemonPointsException, InvalidTypeException {
+        if( points < PokeWorld.NEW_MOVE_COST )
+            throw new InvalidPokemonPointsException(
+                "Not enough points to add this move. Requires " + PokeWorld.NEW_MOVE_COST +
+                " points to add a new move." +
+                "\nCurrently, " + NAME + " has " + points + " points." );
+                
+        else if( moves.size() == PokeWorld.MAX_NUMBER_OF_MOVES )
+            throw new InvalidPokemonPointsException(
+                NAME + " has too many moves learned. First delete a move, then add a new move." +
+                "\nCurrently, " + NAME + " knows " + moves.size() + " moves, and the max allowed " +
+                " number of moves is " + PokeWorld.MAX_NUMBER_OF_MOVES );
+        
+        else if( !matchesType( move.getType().name() ) && !move.getType().equals("NORMAL") ) {
+            throw new InvalidTypeException(
+                NAME + " tried to learn a Move that " + NAME + " can't learn!\nPokemon can only learn Moves that " +
+                "share the same type as this Pokemon. All Pokemon can learn Normal Move types. This Pokemon's type " +
+                "is " + TYPE + ", but the Move trying to be learned is of type " + move.getType() + "." );
+        } else {
+            points -= PokeWorld.NEW_MOVE_COST;
+            moves.add( move );
+        }
+    }
+@@@
+    public boolean deleteMove( String moveName ) {
+        int totalKnownMoves = moves.size();
+        if( totalKnownMoves == 1 )
+            return false;
+        
+        for( int i = 0; i < moves.size(); i++ ) {
+            Move move = moves.get(i);
+            if( move.getName().equals( moveName ) ) {
+                moves.remove(i);
+                return true;
+            }
+        }
+        
+        return false;
+    }
+@@@
+    public boolean deleteMove( int moveNumber ) {
+        return deleteMove( moves.get( moveNumber ).getName() );
+    }
+@@@
+    public int getMovePP( String moveName ) {
+        for( int i = 0; i < moves.size(); i++ ) {
+            Move move = moves.get(i);
+            if( move.getName().equals( moveName ) )
+                return moves.get(i).getPP();
+        }
+        
+        return PokeWorld.ERROR;
+    }
+@@@
+    public int getMovePP( int moveNumber ) {
+        return getMovePP( moves.get( moveNumber ).getName() );
+    }
+@@@
+    public int getCurrentMovePP( String moveName ) {
+        for( int i = 0; i < moves.size(); i++ ) {
+            Move move = moves.get(i);
+            if( move.getName().equals( moveName ) )
+                return moves.get(i).getCurrentPP();
+        }
+        
+        return PokeWorld.ERROR;
+    }
+@@@
+    public int getCurrentMovePP( int moveNumber ) {
+        return getCurrentMovePP( moves.get( moveNumber ).getName() );
+    }
+@@@
